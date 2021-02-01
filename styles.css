@@ -3,6 +3,8 @@
     padding: 0;
 }
 body{
+    width: 100%;
+    height: 100%;
     font-family: sans-serif;
 }
 
@@ -58,11 +60,11 @@ banner a{
     color: #fff;
     text-decoration: none;
 }
-.promo{
+/* .promo{
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
-}
+} */
 
 .play{
     width: 45px;
