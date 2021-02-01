@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;  
+}
+
+.navbar{
+    background-image: linear-gradient(to right ,#92C7F0,#131D38);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    font-family:URW Chancery L, cursive;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-brand h4{
+    color: white;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* BANNER */
+
+#banner{
+    background-image: linear-gradient(to right ,#92C7F0,#131D38);
+    color: #fff;
+    padding-top:5% ;
+}
+
+banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.promo{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play{
+    width: 45px;
+    margin: 20px;
+}
+
+.bottomimg{
+    width: 100%;
+}
+
+/* SERVICES */
+.services{
+    padding: 20px;
+}
+#services{
+    padding: 80px 0;
+}
+
+.servicesimg{
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#services .btn-primary { 
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#92C7F0,#131D38);
+    text-align: center;
+}
+.title::before{
+    content: '  ';
+    background: #92C7F0;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform:translateY(63px)
+}
+.title::after{
+    content: '  ';
+    background: #92C7F0;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform:translateY(8px)
+}
+
+/* ABOUT US */
+
+#aboutus{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.abouttitle{
+    font-size: 40px;
+    font-weight: 600 ;
+    margin-top:8%;
+}
+
+#aboutus ul{
+    margin-left: 20px;
+}
+
+#aboutus ul li{
+    margin: 10px 0;
+}
+
+/* TESTIMONIALS  */
+
+#testimonials{
+    margin: 100px 0;
+}
+
+.testimonials{
+    border-left: 4px solid #7CAAD0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.testimonialsdetails{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* CONTACTUS */
+
+#socialmedia{
+    background:7CAAD0 ;
+    padding: 100px 0;
+}
+
+#socialmedia p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.icons img{
+    width: 60px;
+    transition: 0.5sec;
+}
+
+.icons a:hover img{
+
+    transform: translateY(-10px);
+}
+
+
+/* FOOTER */
+
+#footer{
+    background-image: linear-gradient(to right ,#92C7F0,#131D38);
+    color: #fff;
+}
+
+.bottomrow{
+    display: inline-block
+}
+.footerimg{
+    width: 100% ;
+}
+
+.footerbox{
+    padding: 20px;
+}
+
+.footerbox img{
+
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footerbox .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    
+}
+
+.footerbox .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footerbox .btn btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right ,#92C7F0,#131D38);
+}
+
+hr{
+    background-color: white;
+}
+
+.copyrights{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
