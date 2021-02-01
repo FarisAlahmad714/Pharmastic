@@ -1,0 +1,19 @@
+{
+  "name": "pharmastic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "smooth-scroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarisAlahmad714/Pharmastic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarisAlahmad714/Pharmastic/issues"
+  },
+  "homepage": "https://github.com/FarisAlahmad714/Pharmastic#readme"
+}
