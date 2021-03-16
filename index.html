@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharmastic Deliveries</title>
-    <link rel="shortcut icon" href="images/logo.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id='nav-bar'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><h4>Pharmastic</h4></a>
+            <a class="navbar-brand" href="#"><h4>Pharmastic Deliveries</h4></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
@@ -44,13 +47,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="promo">YOUR COMPANY'S FANTASTIC+PHARMACY DELIVERY SOLUTION</h3>
-                    <p>At Pharmastic , we provide a developed approach into handling our customers delivery operations.</p>
-                    <a href=""><img src="images/25.png"class="play" alt="">Learn More</a>
+                    <h3 class="promo">The delivery solution to all your businuess needs</h3>
+                    <!-- <p>At Pharmastic , we provide a developed approach into handling our customers delivery operations.</p> -->
+                    <a href=""><iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" width="100%">
+                        </iframe>Learn More</a>
                 </div>
 
                 <div class="col-md-6 text-center">
-                    <img src="images/logo.png" class="img-fluid" alt="">
+                    <img src="images/LOGOTOP.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -74,8 +79,8 @@
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/monetize.jpg"  class="servicesimg" width="auto" height="auto" alt="">
-                    <h4>Monetization</h4>
-                    <p>At Pharmastic , we provide a developed approach into handling our customers delivery operations.</p>
+                    <h4>Effeciency </h4>
+                    <p>It can be challenging to build the perfect route that meets all of your requirements.But, with the right technology & managment , we are able to maintain our teams and formulate an effecient system!</p>
                 </div>
             </div>
             <button type="button"class="btn btn-primary">All Services</button>
@@ -111,13 +116,13 @@
         <div class="container">
             <h1 class="title text-center">WHAT CLIENTS SAY</h1>
             <div class="row offset-1">
-                <div class="col-md-5 testimonials">
+                <!-- <div class="col-md-5 testimonials">
                     <p>At Pharmastic , we provide a developed approach into handling our customers delivery operations.</p>
                     <img src="images/dk.png " alt="">
                     <p class='testimonialsdetails'><b>Ahmad</b> <br> DK Pharmacy Founder</p>
-                </div>
+                </div> -->
                 <div class="col-md-5 testimonials">
-                    <p>At Pharmastic , we provide a developed approach into handling our customers delivery operations.</p>
+                    <p>We were able to recruit the Pharmastic team to handle our delivery operations,in the meantime ,we have increasingly monetized our backend to create a further outreach for medical deliveries , thanks to Pharmastic Solutions, we have been able to expand our customer outreach. </p>
                     <img src="images/dk.png " alt="">
                     <p class='testimonialsdetails'><b>Ahmad</b> <br> DK Pharmacy Founder</p>
                 </div>
@@ -132,7 +137,10 @@
         <p>FOLLOW US </p>
             <div class="icons">
                 <a href="">
-                    <img src="images/icons.png" alt="">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
                 </a>
             </div>
         </div>
@@ -144,8 +152,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4" footerbox>
-                <img src="images/logo.png"  width="50px" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eos illo, amet exercitationem ad minima omnis eligendi pariatur, vitae aperiam quam quisquam modi neque laudantium excepturi aspernatur dolorem harum vero?</p>
+                <img src="images/LOGOTOP.png"  width="50px" alt="">
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eos illo, amet exercitationem ad minima omnis eligendi pariatur, vitae aperiam quam quisquam modi neque laudantium excepturi aspernatur dolorem harum vero?</p> -->
                 </div>
                 <div class="col-md-4" footerbox>
                     <p><b>Contact Us!</b></p>
@@ -154,9 +162,34 @@
                     <p><i class="fa fa-envelope" aria-hidden="true"></i>Supprt@Pharmastic.com</p>
                 </div>
                 <div class="col-md-4" footerbox>
-                    <p><b>Newsletter</b></p>
-                    <input type="email" class="form-control" placeholder="Your@email">
-                    <button type="button" class="btn btn-primary">Subscribe</button>
+                        <form action="https://formspree.io/f/myybrvyo"" method="POST" id="my-form">
+
+                            <div class="form-group">
+                              <label for="firstName"> Name</label>
+                              <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="firstName"> Company</label>
+                                <input type="text" class="form-control" id="company" name="company" placeholder="Company Name">
+                              </div>
+      
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="email" class="form-control" id="email" name="email"
+                              placeholder="Company Email">
+                            </div>
+      
+                            <div class="form-group">
+                              <label for="massage">Message</label>
+                              <textarea name="massage" class="form-control" id="massage" cols="30" rows="5"
+                              placeholder="Write a detailed message of how we can assist you "></textarea>
+                            </div>
+      
+                            <button type="submit" class="btn btn-primary">Send</button>
+                          </form>
+                        </div>
+                        <div id="status"></div>
                 </div>
         </div>
         <hr>
@@ -170,5 +203,6 @@
 <script>
     var scroll = new SmoothScroll('a[href*="#"]');
 </script>
+<script src="./main.js"></script>
 </body>
 </html>
