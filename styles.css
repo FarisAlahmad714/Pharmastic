@@ -73,6 +73,11 @@ banner a{
     width: 100%;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
 /* SERVICES */
 .services{
     padding: 20px;
