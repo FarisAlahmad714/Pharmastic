@@ -60,11 +60,9 @@ banner a{
     color: #fff;
     text-decoration: none;
 }
-/* .promo{
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 100px;
-} */
+.promo{
+    text-align: center;
+}
 
 .play{
     width: 45px;
